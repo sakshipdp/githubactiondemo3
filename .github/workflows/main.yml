@@ -15,7 +15,7 @@ jobs:
             - name: run extract.py
               run: python extract.py
 
-    tansform-data:
+    tansform-data-jobs:
         runs-on: ubuntu-latest
         steps: 
             - name: checkout code
